@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/atencion.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,9 +24,75 @@
                             </select>
                         </div>
                         <div class="mb-3">
-                            
+                            <label for="nombre"></label>
+                            <input type="nombre" placeholder="Nombre" class="from-contrl">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido"></label>
+                            <input type="apellido" placeholder="Apellido" class="from-contrl">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cedula"></label>
+                            <input type="cedula" placeholder="Cedula" class="from-contrl">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ciudad"></label>
+                            <input type="ciudad" placeholder="Ciudad" class="from-contrl">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email"></label>
+                            <input type="email" placeholder="Email" class="from-contrl">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono"></label>
+                            <input type="telefono" placeholder="Telefono" class="from-contrl">
                         </div>
                     </div>
+                </form>
+                <form>
+                    <h2>Seleccione el Servicio</h2>
+                    <div class="wp-block-colum">
+                        <div class="mb-3">
+                            <label for="opcione"></label>
+                            <select name="opcione" id="opcione">
+                                <option value="opc1">Navette</option>
+                                <option value="opc2">Taquilla</option>
+                                <option value="opc2">Turquesa</option>
+                                <option value="opc2">Regent</option>
+                                <option value="opc2">Confort Vans</option>
+                                <option value="opc2">Urbanos</option>
+                                <option value="opc2">Servicio especial</option>
+                                <option value="opc2">Corriente</option>
+                                <option value="opc2">Encomiendas</option>
+                                <option value="opc2">Estado de Servicio</option>
+                                <option value="opc2">Baguette</option>
+                            </select>
+                            <div class="mb-3">
+                                <label for="mensaje"></label>
+                                <input type="mensaje" placeholder="Mensaje" class="from-contrl">
+                            </div>
+                            <div class="mb-3">
+                                <label for="placa"></label>
+                                <input type="placa" placeholder="Numero de placa y/o interno del vehiculo" class="from-contrl">
+                            </div>
+                        </div>
+                        <h4>"Adjuntar imagen/evidencia, Peso maximo <br>
+                            3MB, no obligatorio*"
+                        </h4>
+                        <div class="mb-3">
+                            <label for="selccion">Ninguno archivo selec</label>
+                            <input type=selaccion" placeholder="Seleccionar archivo" class="from-contrl">
+                        </div>
+                        <label>
+                    <input type="checkbox">Desea que le llegue una copia a su correo.
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox">Acepto que he leido la politica de proteccion de <br>
+                    datos personales Ver politicas.
+                </label>
+                <br>
+                <button class="btn">Enviar</button>
                 </form>
             </div>
 
