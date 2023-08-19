@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <title>comootor</title>
 </head>
@@ -11,5 +11,26 @@
   <header>
     <%- include('partials/navigation.ejs') %>
   </header>
+  <div class="container">
+    <div class="inicio">
+     <h2>Compra tus pasajes</h2>
+      <form>
+        <input type="text" placeholder="ciudad de origen">
+       <input type="text" placeholder="destino">
+       <label for="fecha">Selecciona una fecha:</label>
+       <input type="date" id="fecha" name="fecha">
+       <input type="submit" value="buscar">
+     </form>
+    </div>
+    <div class="resto">
+        <h2>tu mascota tambien viaja con nostros</h2>
+        <img src="https://coomotor.com.co/wp-content/uploads/2023/07/mascotas.png" alt="">
+        <div class="descarga">
+         <h2>descarga nuestraa  APP aquí</h2>
+         <img src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png" alt="Google Play Store">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1024px-Download_on_the_App_Store_Badge.svg.png" alt="App Store">
+        </div>
+    </div>
+  </div>
 </body>
 </html>
