@@ -11,5 +11,22 @@
   <header>
     <%- include('partials/navigation.ejs') %>
   </header>
+  <div class="container">
+    <div class="inicio">
+     <h2>Compra tus pasajes</h2>
+      <form>
+        <input type="text" placeholder="ciudad de origen">
+       <input type="text" placeholder="destino">
+       <label for="fecha">Selecciona una fecha:</label>
+       <input type="date" id="fecha" name="fecha">
+       <input type="submit" value="buscar">
+     </form>
+    </div>
+    <div class="resto">
+        <h2>tu mascota tambien viaja con nostros</h2>
+        <img src="https://coomotor.com.co/wp-content/uploads/2023/07/mascotas.png" alt="">
+        <h2>descarga nuestraa  APP aquí</h2>
+    </div>
+  </div>
 </body>
 </html>
