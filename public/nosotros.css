@@ -1,0 +1,66 @@
+body {
+    background-color:white;
+}
+
+#nosotros {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 15px;
+    color: black;
+    display: flex;
+}
+
+#nosotros .contenedor-foto {
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+#nosotros .contenedor-foto img {
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+#nosotros .nosotros {
+    margin: 0 40px;
+}
+
+#nosotros .nosotros .titulo-seccion {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+}
+
+#nosotros .nosotros h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+
+
+#nosotros .nosotros p {
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+#nosotros .nosotros a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#nosotros .nosotros a:hover {
+    background-color:blue;
+    color: #fff;
+}
