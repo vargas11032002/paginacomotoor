@@ -1,0 +1,27 @@
+.descarga-mt-5 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px;
+  }
+  
+  .descarga-mt-5 img {
+    width: 100px;
+    height: 80px;
+    margin-top: 50px;
+  }
+  img[src="https://coomotor.com.co/wp-content/uploads/2023/07/mascotas.png"] {
+    display: block;
+    margin: 0 auto;
+  }
+body{
+    background-image: url("https://fondosmil.com/fondo/23216.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
