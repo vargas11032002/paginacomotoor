@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/nosotros.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
   <title>Coomotor</title>
 </head>
 <body>
@@ -22,39 +23,54 @@
             Apoyados en un moderno parque automotor para ofrecer servicios de alta calidad, con efectividad, seguridad y puntualidad.</p>
     </div>
 </section>
-<div class="accordion" id="accordionExample">
+<div class="accordion" id="accordionPanelsStayOpenExample">
     <div class="accordion-item">
       <h2 class="accordion-header">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Accordion Item #1
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
           VISIÓN
         </button>
       </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
         <div class="accordion-body">
-          <strong>Visión</strong> 
-          Seremos en el año 2025 la empresa Colombiana más confiable en el transporte aéreo y terrestre de pasajeros – encomiendas.
+          <strong>Visión</strong> Seremos en el año 2025 la empresa Colombiana más confiable en el transporte aéreo y terrestre de pasajeros – encomiendas.
         </div>
       </div>
     </div>
     <div class="accordion-item">
       <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          VALORES COORPORATIVOS
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>Valores Cooporativos.</strong> Pasión Por Servir
+          Es compromiso de todo el componente humano en COOMOTOR satisfacer al cliente para que él se deleite con nuestro servicio.
+          
+          Lealtad
+          Los colaboradores de COOMOTOR deben respetarla siempre dentro y fuera de ella, realizando actos que conlleven a la efectividad y al mejoramiento de su imagen institucional.
+          
+          Competitividad
+          En COOMOTOR somos conscientes de la existencia de otras empresas que buscan desplazarnos, por ello todos los días trabajamos para permanecer en el mercado y ser los más importantes del sector transportador en el ámbito nacional.
+          
+          Respeto
+          En COOMOTOR el cliente, los proveedores y colaboradores de la organización, merecen nuestra admiración y aprecio, por ser nuestra principal fuente de dinamismo y desarrollo.
+          
+          Honestidad
+          Los colaboradores en COOMOTOR trabajan con honradez y rectitud en todas sus acciones, siendo coherentes entre lo que piensan, dicen y hacen.
+          
+          Compromiso
+          En COOMOTOR el cliente es lo primero para el logro de los objetivos y el cumplimiento de estos valores, por ello contamos con el liderazgo y la capacidad de entrega de todos los colaboradores.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
           Accordion Item #3
         </button>
       </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
         <div class="accordion-body">
           <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
         </div>
@@ -64,4 +80,5 @@
 <footer>
     <%- include('partials/footer.ejs') %>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
