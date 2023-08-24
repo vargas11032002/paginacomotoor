@@ -10,7 +10,9 @@ h2 {
     justify-content: space-around;
   }
   
-  .custom-container {
+.contenedor {
     background-color: rgb(15, 104, 221);
   }
-  
+.col-md-6{
+    margin-bottom: 50px;
+}
