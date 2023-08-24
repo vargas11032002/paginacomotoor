@@ -1,0 +1,16 @@
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px;
+  }
+  
+  .col-md-6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .custom-container {
+    background-color: rgb(15, 104, 221);
+  }
+  

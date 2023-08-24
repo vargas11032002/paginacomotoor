@@ -29,11 +29,6 @@ app.get('/nosotros', (req, res) => {
   res.render('nosotros');
 });
 
-app.get('/testimonio', (req, res) => {
-  res.render('testimonio');
-});
-
-
 const port = 3000;
 app.listen(port, () => {
   console.log(`Servidor iniciado en http://localhost:${port}`);
