@@ -1,26 +1,11 @@
-body{
-  margin: 0;
-  
+
+.navbar {
+
+    background-color: rgb(15, 104, 221);
+
+  }
+
+.nav-link{
+  color: white;
 }
-.nav {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-evenly;
-    color: white;
-    background-color: rgb(94, 206, 206);
-    height: 85px;
-    width: 100%;
-  }
   
-  .nav img {
-    margin-right: 10px; 
-  }
-  
-  .nav ul {
-    list-style: none; 
-    display: flex; 
-  }
-  
-  .nav li {
-    margin-right: 20px; 
-  }
