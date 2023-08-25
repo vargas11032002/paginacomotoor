@@ -1,51 +1,43 @@
-.descarga-mt-5 {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  h2 {
-    text-align: center;
-    margin: 0 auto;
-    width: fit-content;
-    padding: 10px;
-  }
-  
-  .descarga-mt-5 img {
-    width: 100px;
-    height: 80px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-  img[src="https://coomotor.com.co/wp-content/uploads/2023/07/mascotas.png"] {
-    display: block;
-    margin: 0 auto;
-  }
-body{
-    background-image: url("https://fondosmil.com/fondo/23216.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-@media (max-width: 480px) {
-  .descarga-mt-5 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  
-  h2 {
-    font-size: 24px;
-  }
+/* Estilos generales */
+body, html {
+  height: 100%;
+  background-image: url("https://fondosmil.com/fondo/23216.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-@media (max-width: 1200px) {
-  .descarga-mt-5 {
-    flex-direction: column;
-    align-items: center;
-  }
+.container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
 
-  
-  h2 {
-    font-size: 24px;
-  }
+.input-container {
+  margin-bottom: 1rem;
+}
+
+.img-container {
+  margin-bottom: 1rem;
+}
+
+.descarga-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Estilos específicos para las imágenes de descarga */
+.descarga-container a {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+}
+
+.descarga-container img {
+  max-width: 100%;
+  max-height: 100%;
 }
