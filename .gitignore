@@ -21,25 +21,3 @@ node_modules/
 logs/
 temp/
 
-# Entorno de desarrollo (por ejemplo, si estás utilizando Python)
-venv/
-__pycache__/
-
-# Entorno de desarrollo (por ejemplo, si estás utilizando Java)
-target/
-*.jar
-
-# Entorno de desarrollo (por ejemplo, si estás utilizando C#)
-bin/
-obj/
-*.dll
-*.exe
-
-# Entorno de desarrollo (por ejemplo, si estás utilizando Ruby)
-*.gem
-.bundle/
-
-# Entorno de desarrollo (por ejemplo, si estás utilizando PHP)
-vendor/
-
-# Cualquier otro patrón específico de tu proyecto
