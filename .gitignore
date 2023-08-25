@@ -1,0 +1,45 @@
+# Archivos y directorios generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración específicos del editor
+.vscode/
+.idea/
+
+# Archivos de compilación o resultados
+*.o
+*.pyc
+*.class
+
+# Archivos de configuración local
+config.ini
+
+# Directorio de dependencias de Node.js
+node_modules/
+
+# Archivos de registro y temporales
+logs/
+temp/
+
+# Entorno de desarrollo (por ejemplo, si estás utilizando Python)
+venv/
+__pycache__/
+
+# Entorno de desarrollo (por ejemplo, si estás utilizando Java)
+target/
+*.jar
+
+# Entorno de desarrollo (por ejemplo, si estás utilizando C#)
+bin/
+obj/
+*.dll
+*.exe
+
+# Entorno de desarrollo (por ejemplo, si estás utilizando Ruby)
+*.gem
+.bundle/
+
+# Entorno de desarrollo (por ejemplo, si estás utilizando PHP)
+vendor/
+
+# Cualquier otro patrón específico de tu proyecto
